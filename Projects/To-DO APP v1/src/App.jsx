@@ -7,11 +7,9 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
-      <div>
-        <h1>ToDo App</h1>
-      </div>
-    </>
+    <center className="todo-container">
+      <h1>Google Tasks</h1>
+    </center>
   );
 }
 
