@@ -2,18 +2,18 @@ import React from "react";
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Cell from "./components/Cell";
+import Header from "./components/Header";
 function App() {
+  let admin=["Account Management", "Dealer Shipping", "Penalty", "Performance Results", "Personal Data"];
+  let supplier=["My Account","Products","Product Life","Savings"];
   return (
-    <React.Fragment>
-      <h1>Telangana Vantakaalu</h1>
-      <ul class="list-group">
-        <li class="list-group-item">Pachi Pulusu</li>
-        <li class="list-group-item">Talakaya Koora</li>
-        <li class="list-group-item">Bachala Koora</li>
-        <li class="list-group-item">Otti Chepalu</li>
-        <li class="list-group-item">Ankapur Kodi Koora</li>
-      </ul>
-    </React.Fragment>
+    <>
+      < Header header="Admin"/>
+      < Cell data={admin}/>
+      < Header header="Supplier"/>
+      < Cell data={supplier} />
+    </>
   );
 }
 
