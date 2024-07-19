@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Rinzlertron456/ReactRedux/issues"
   },
-  "homepage": "https://github.com/Rinzlertron456/ReactRedux#readme"
+  "homepage": "https://github.com/Rinzlertron456/ReactRedux#readme",
+  "dependencies": {
+    "vite": "^5.2.12"
+  }
 }
