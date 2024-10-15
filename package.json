@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Rinzlertron456/ReactRedux#readme",
   "dependencies": {
+    "react-redux": "file:",
     "vite": "^5.2.12"
   }
 }
