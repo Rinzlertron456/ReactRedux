@@ -1,14 +1,30 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <center className="todo-container">
-      <h1>Google Tasks</h1>
+    <center className="container">
+      <h1>To-Do List</h1>
+      <div className="container">
+        <div className="row">
+          <div className="col">Enter Task Here</div>
+          <div className="col">Enter Deadline Here</div>
+          <div className="col">
+            <button className="btn btn-outline-success">Add</button>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col"></div>
+          <div className="col"></div>
+          <div className="col"></div>
+        </div>
+        <div className="row">
+          <div className="col"></div>
+          <div className="col"></div>
+          <div className="col"></div>
+        </div>
+      </div>
     </center>
   );
 }
