@@ -29,6 +29,11 @@ function App() {
     <>
       < Header data="Admin Database" />
       < Database data={Admin}/>
+      <div className="table">
+        <div className="row"></div>
+        <div className="row"></div>
+        <div className="row"></div>
+      </div>
       {/* {Admin.map((ele,i)=>{
         return <li key={i}>Username:- {ele.username} Password:- {ele.password}</li>
       })} */}

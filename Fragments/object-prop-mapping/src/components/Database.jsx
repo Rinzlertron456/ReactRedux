@@ -11,7 +11,7 @@ function Database(props) {
                             <th scope="col">Username</th>
                             <th scope="col">Password</th>
                         </tr>
-                    </thead>
+                    </thead>;
     {database.map((ele,i)=>{
         return (
             <>
